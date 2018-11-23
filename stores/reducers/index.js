@@ -1,10 +1,6 @@
 import { combineReducers } from 'redux'
-// import { default as mainReducer } from './main'
-// import { default as emailReducer } from './email'
-// import { default as portfolioReducer } from './portfolioReducer'
+import { default as memberReducer } from './memberReducer'
 
 export default combineReducers({
-//   mainReducer,
-//   emailReducer,
-//   portfolioReducer,
+  memberReducer,
 })
