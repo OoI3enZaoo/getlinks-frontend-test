@@ -54,10 +54,10 @@ const FooterSection = () => (
           />
           <Social>
             <a href="#">
-              <Img src="/static/facebook-white.svg"/>
+              <Img src="/static/facebook-white.svg" alt="facebook-icon"/>
             </a>
             <a href="#" style={{marginLeft: '10px'}}>
-              <Img src="/static/pinterest-white.svg"/>
+              <Img src="/static/pinterest-white.svg" alt="pinterest-icon"/>
             </a>
           </Social>
         </Col>

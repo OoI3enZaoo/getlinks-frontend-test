@@ -7,7 +7,7 @@ const memberList = ({ members }) => (
     <Row>
       {
         members.map((member, index) => (
-          <Col lg="3" sm="4" xs="6">
+          <Col lg="3" sm="4" xs="6" key={index}>
             <MemberCard {...member}/>          
           </Col>
         ))

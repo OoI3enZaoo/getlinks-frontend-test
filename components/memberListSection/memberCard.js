@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const MemberCard = ({ avatar, fname, lname, profile }) => (
   <FlexColumn>
     <AvatarWrapper>
-      <Avatar src="https://static.spin.com/files/2018/05/taylor-swift-sweats-take-a-shower-interview-video-1527633941-640x427.jpg"/>
+      <Avatar src={avatar}/>
     </AvatarWrapper>
     <Name>{fname} {lname}</Name>
     <Profile>{profile}</Profile>

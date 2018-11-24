@@ -20,7 +20,7 @@ const MenuBlockContainer = styled.div`
 `
 
 const Title = styled.div`
-  color: #3C414D;
+  color: #FFFFFF;
   font-weight: normal;
   font-family: sans-serif;
 `
