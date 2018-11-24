@@ -11,3 +11,5 @@
 ## Heroku server
 **You can access this project from https://getlinks-testing-frontend.herokuapp.com
 
+## Lighthouse score 
+![lighthouse score](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/lighthouse.JPG)
