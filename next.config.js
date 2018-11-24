@@ -10,7 +10,7 @@ module.exports = {
         entry['main.js'] && entry['main.js'].push(path.resolve('./utils/offline'))
         return entry
       })
-    // if (!dev) {
+    if (!dev) {
       config.plugins.push(
         new SWPrecacheWebpackPlugin({
           cacheId: 'frontend-testing',
@@ -32,7 +32,7 @@ module.exports = {
           ],
         })
       )
-    // }
+    }
 
     config.resolve.alias = {
       '<components>': path.resolve(__dirname, './components'),
