@@ -27,7 +27,7 @@ export default function memberReducer (state = initialState, action) {
 
 export const fetchMember =  () => async dispatch => {
   dispatch({ type: 'FETCH_MEMBER_REQUEST' })
-  const fetchMember = await fetch('http://139.162.15.177:5000/members')
+  const fetchMember = await fetch('https://getlinks-testing-backend.herokuapp.com/members')
   const { result } = await fetchMember.json()  
   dispatch({ type: FETCH_MEMBER_SUCCESS, payload: result })
 }
