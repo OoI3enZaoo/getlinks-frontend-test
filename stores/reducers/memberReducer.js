@@ -11,13 +11,11 @@ export default function memberReducer (state = initialState, action) {
   const { type } = action
   switch (type) {
     case FETCH_MEMBER_REQUEST:
-      console.log('FETCH_MEMBER_REQUEST')
       return {
         ...state,
         isLoadingMember: true,
       }
     case FETCH_MEMBER_SUCCESS:
-      console.log('FETCH_MEMBER_SUCCESS')
       return {
         ...state,
         members: action.payload,

@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Container, Button } from 'reactstrap'
 import { connect } from 'react-redux'
 import { fetchMember } from '<reducers>/memberReducer'
 import ShowcaseSection from '<components>/showcaseSection'

@@ -9,5 +9,10 @@
       "test": {
         "presets": ["env", "react"]
       }
-    }
+    },
+    "plugins": [
+      ["babel-plugin-styled-components", {
+        "ssr": true
+      }]
+    ]
 }
