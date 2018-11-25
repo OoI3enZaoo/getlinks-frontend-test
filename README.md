@@ -8,8 +8,12 @@
 3. **Install Dependencies**. `npm install`
 4. **Start node server, serve at localhost:3000**. `npm run dev`
 
-## Heroku server
-**You can access this project from https://getlinks-testing-frontend.herokuapp.com
+## Heroku Server
+**You can access this project at https://getlinks-testing-frontend.herokuapp.com
 
-## Lighthouse score 
+## Lighthouse Score 
 ![lighthouse score](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/lighthouse.JPG)
+
+## PageSpeed Insights Score
+![PageSpeed Insights Score](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/pagespeed-insights.JPG)
+
