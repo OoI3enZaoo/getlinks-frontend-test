@@ -6,8 +6,7 @@
 1. **Clone the project**. `git clone https://github.com/OoI3enZaoo/getlinks-frontend-test.git`.
 2. **Go to project directory**. `cd getlinks-frontend-test`
 3. **Install Dependencies**. `npm install`
-4. **Copy nodemon.json to directory of your project
-5. **Start node server, serve at localhost:3000**. `npm run dev`
+4. **Start node server, serve at localhost:3000**. `npm run dev`
 
 ## Heroku Server
 **You can access this project at https://getlinks-testing-frontend.herokuapp.com
