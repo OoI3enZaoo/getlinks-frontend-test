@@ -29,5 +29,5 @@ export const fetchMember =  () => async dispatch => {
   dispatch({ type: 'FETCH_MEMBER_REQUEST' })
   const fetchMember = await fetch('https://getlinks-testing-backend.herokuapp.com/members')
   const { result } = await fetchMember.json()  
-  dispatch({ type: FETCH_MEMBER_SUCCESS, payload: result })
+  return dispatch({ type: FETCH_MEMBER_SUCCESS, payload: result })
 }
