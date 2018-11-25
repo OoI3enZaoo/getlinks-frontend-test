@@ -2,4 +2,6 @@ node_modules
 .next
 yarn.lock
 yarn-error.log
+out
+static/sw.js
 

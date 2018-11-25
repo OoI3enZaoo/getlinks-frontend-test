@@ -3,7 +3,13 @@ const path = require('path')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
 
 module.exports = {
+  exportPathMap: async function (defaultPathMap) {
+    return {
+      '/': { page: '/' },
+    }
+  },
   webpack: (config, { dev }) => {    
+    
     const oldEntry = config.entry
     config.entry = () =>
       oldEntry().then(entry => {
