@@ -9,7 +9,11 @@
     "start": "NODE_ENV=production node server.js",
     "export": "npm run build && next export",
     "test": "jest",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "build:static:manifest": "node static/manifest.json",
+    "build:static:sw": "workbox generateSW workbox-config.js",
+    "build:static": "next build && next export && npm run build:static:sw && npm run build:static:manifest",
+    "deploy:static": "npm run build:static"
   },
   "author": "Theerapat Vijitpoo",
   "license": "MIT",
@@ -39,6 +43,9 @@
     "babel-preset-react": "^6.24.1",
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "netlify-cli": "^2.2.1",
+    "serve": "^10.1.1",
+    "workbox-cli": "^3.6.3"
   }
 }
