@@ -12,8 +12,8 @@
 **You can access this project at https://getlinks-testing-frontend.herokuapp.com or https://getlinks-frontend-test.now.sh/
 
 ## Lighthouse Score 
-![lighthouse score_2](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/lighthouse.JPG)
+![lighthouse score_2](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/lighthouse2.JPG)
 
 ## PageSpeed Insights Score
-![PageSpeed Insights Score_2](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/pagespeed-insights.JPG)
+![PageSpeed Insights Score_2](https://s3-ap-southeast-1.amazonaws.com/kkmodels/getlinks/pagespeed-insights2.JPG)
 
